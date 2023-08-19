@@ -1,4 +1,13 @@
-
+.search-ani{
+    width: 150px;
+    transition: width 1s;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  .search-ani:focus{
+    width: 300px;
+  }
 .sidebar {
     width: 150px;
     height: 100vh;
@@ -30,11 +39,3 @@
   .sidebar:hover i {
     transform: translateX(0px);
   } 
-  .search-ani{
-    width: 150px;
-  transition: width 1s;
-  }
-  .search-ani:focus{
-    width: 500px;
-  
-  }
